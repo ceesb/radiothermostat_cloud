@@ -1,0 +1,46 @@
+{"command":"reboot"}
+{"wd_timeout":"INTEGER"}
+{"wd_strobe":"INTEGER"}
+{"upgrade":{"fs_url":"STRING","fw_url":"STRING"}}
+{"cloud":{"interval":"INTEGER","url":"STRING"}}
+{"cloud_request":{"sys":{"wd_timeout":1}}}
+{"cloud_request":{"sys":{"rssi":1}}}
+{"cloud_request":{"sys":{"diag_live":1}}}
+{"cloud_request":{"sys":{"diag_history":1}}}
+{"cloud_request":{"power":1}}
+{"cloud_request":{"model":1}}
+{"cloud_request":{"datalog":1}}
+{"cloud_request":{"eventlog":1}}
+{"cloud_request":{"humidity":1}}
+{"cloud_request":{"thumidity":1}}
+{"cloud_request":{"stage_delay":1}}
+{"cloud_request":{"fan_ctime":1}}
+{"cloud_request":{"lock_mode":1}}
+{"cloud_request":{"save_energy":1}}
+{"cloud_request":{"hvac_rec_mode":1}}
+{"cloud_request":{"intensity":1}}
+{"cloud_request":{"simple_mode":1}}
+{"cloud_request":{"tswing":1}}
+{"cloud_request":{"temp_differential":{"heat":1, "cool":1}}}
+{"cloud_request":{"program":{"heat":1, "cool":1}}}
+{"tmode":"INTEGER"}
+{"fmode":"INTEGER"}
+{"t_heat":"FLOAT"}
+{"t_cool":"FLOAT"}
+{"hold":"INTEGER"}
+{"beep":"INTEGER"}
+{"power":"INTEGER"}
+{"thumidity":"INTEGER"}
+{"energy_led":"INTEGER"}
+{"stage_delay":"INTEGER"}
+{"fan_ctime":"INTEGER"}
+{"lock_mode":"INTEGER"}
+{"hvac_rec_mode":"INTEGER"}
+{"intensity":"INTEGER"}
+{"simple_mode":"INTEGER"}
+{"tswing":"FLOAT"}
+{"user_msg":{"mode":"INTEGER","line":"INTEGER","message":"STRING"}}
+{"time":{"day":"INTEGER","hour":"INTEGER","minute":"INTEGER","format":"INTEGER"}}
+{"program":{"heat":{"0":[INTEGER,FLOAT ...], ..., "6":[INTEGER,FLOAT,...]}}}
+{"save_energy":{"mode":"INTEGER","type":"INTEGER","delta":"FLOAT"}}
+{"temp_differential":{"heat":{"temp_diff":"FLOAT"},"cool":{"temp_diff":"FLOAT"}}}
